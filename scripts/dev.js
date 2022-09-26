@@ -14,6 +14,8 @@ const format = args.f || 'global'
 const inlineDeps = args.i || args.inline
 const pkg = require(resolve(__dirname, `../packages/${target}/package.json`))
 
+// 2022年09月26日 22:17:07 看到了这里
+
 // resolve output
 const outputFormat = format.startsWith('global')
   ? 'iife'
